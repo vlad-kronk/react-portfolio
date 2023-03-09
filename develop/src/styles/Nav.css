@@ -13,13 +13,13 @@
    color: black;
    text-align: center;
    font-family: 'Manrope';
-   transition: 0.4s cubic-bezier(.14, .64, .37, 1.24);
+   transition: 0.4s cubic-bezier(.14, .64, .16, 1);
 }
 
 .active {
    background-color: rgb(196, 206, 214);
    padding: 15px 40px;
-   transition: 0.4s cubic-bezier(.14, .64, .37, 1.24);
+   transition: 0.4s cubic-bezier(.14, .64, .16, 1);
 }
 
 .navbar-link:hover {
