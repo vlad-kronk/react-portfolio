@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Nav.css';
-import { BsList } from 'react-icons/bs';
+import { FaList } from 'react-icons/fa';
 
 export default function Nav() {
 
@@ -12,9 +12,9 @@ export default function Nav() {
    ];
 
    return (
-      <div className='navbar p-0 m-0'>
+      <div className='navbar'>
          {navOptions.map(option =>
-            <a className='text-decoration-none text-reset' key={option.id} href='#'>{option.value}</a>
+            <a className='navbar-link' key={option.id} href='#'>{option.value}</a>
          )}
          {/* <a href="#" className="icon">
             <BsList className='list-icon' />
