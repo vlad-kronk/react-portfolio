@@ -1,12 +1,12 @@
 import Header from './components/Header';
-import Nav from './components/Nav';
+import PageContainer from './components/PageContainer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Header />
-        <Nav />
+        <PageContainer />
       </header>
     </div>
   );

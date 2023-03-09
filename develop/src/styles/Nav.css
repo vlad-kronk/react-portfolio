@@ -13,6 +13,13 @@
    color: black;
    text-align: center;
    font-family: 'Manrope';
+   transition: 0.4s cubic-bezier(.14, .64, .37, 1.24);
+}
+
+.active {
+   background-color: rgb(196, 206, 214);
+   padding: 15px 40px;
+   transition: 0.4s cubic-bezier(.14, .64, .37, 1.24);
 }
 
 .navbar-link:hover {
@@ -22,6 +29,11 @@
 @media screen and (max-width: 500px) {
    .navbar {
       flex-direction: column;
+   }
+
+   .active {
+      padding: 15px;
+      transition: none;
    }
 
    .navbar-link {
