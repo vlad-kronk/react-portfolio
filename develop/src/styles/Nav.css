@@ -2,6 +2,7 @@
    background-color: rgb(209, 218, 226);
    display: flex;
    flex-direction: row;
+   padding-left: 35px;
 }
 
 .navbar-link {
@@ -29,14 +30,16 @@
 @media screen and (max-width: 500px) {
    .navbar {
       flex-direction: column;
+      padding-left: 0px;
    }
 
    .active {
-      padding: 15px;
+      padding: 15px 0px;
       transition: none;
    }
 
    .navbar-link {
+      padding: 15px 0px;
       width: 100%;
    }
 }

@@ -7,7 +7,7 @@ import Resume from './pages/Resume';
 
 
 export default function PageContainer() {
-   const [currentPage, setCurrentPage] = useState('about me')
+   const [currentPage, setCurrentPage] = useState('about')
 
    // render components based on the current page saved in state
    const renderPage = () => {
@@ -18,7 +18,7 @@ export default function PageContainer() {
             return <Portfolio />
          case 'contact':
             return <Contact />
-         default:
+         case 'about':
             return <AboutMe />
       }
    }
@@ -27,7 +27,9 @@ export default function PageContainer() {
 
    return (
       <div>
+         {/* send in state as props */}
          <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+         {/* render current page based on state */}
          {renderPage()}
       </div>
    )

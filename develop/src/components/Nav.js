@@ -8,7 +8,7 @@ export default function Nav({ currentPage, handlePageChange }) {
    const navOptions = [
       {
          key: 0,
-         value: 'about me'
+         value: 'about'
       },
       {
          key: 1,
