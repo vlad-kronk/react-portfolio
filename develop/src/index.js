@@ -2,9 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import "bootstrap/dist/css/bootstrap.min.css";
+import WebFont from 'webfontloader';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+WebFont.load({
+  google: {
+    families: ['Ubuntu']
+  }
+});
+
 root.render(
   <React.StrictMode>
     <App />

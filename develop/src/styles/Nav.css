@@ -1,0 +1,7 @@
+.navbar {
+   background-color: rgb(209, 218, 226);
+}
+
+.navbar a:hover {
+   background-color: rgb(182, 192, 201);
+}
