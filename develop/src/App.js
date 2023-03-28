@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import PageContainer from './components/PageContainer';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Header />
       </header>
       <PageContainer />
+      <Footer />
     </div>
   );
 }

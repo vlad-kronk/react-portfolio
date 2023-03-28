@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 WebFont.load({
   google: {
-    families: ['Manrope']
+    families: ['Manrope', 'Indie Flower']
   }
 });
 
