@@ -3,9 +3,78 @@
   flex-direction: column;
   width: 400px;
   font-family: 'Manrope';
-  margin: 20px auto;
+  margin: 70px auto;
+  border: 20px solid white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 input {
-  
+  font-size: 16px;
+  padding: 5px 7px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid slategrey;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px;
+  width: 25%;
+  border: none;
+  font-size: 16px;
+  background-color: rgb(209, 218, 226);
+}
+
+button:hover {
+  background-color: rgb(182, 192, 201);
+}
+
+.error::placeholder {
+  color: red;
+  opacity: 0.45;
+}
+
+.error::-ms-input-placeholder {
+  color: red;
+}
+
+
+
+@keyframes field-invalid {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }
