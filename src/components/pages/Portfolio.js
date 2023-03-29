@@ -33,7 +33,7 @@ export default function Portfolio() {
       },
       {
          title: 'Goalie',
-         description: 'Application to share and view goals with piers using chart.js to be able to vizualize the data. Live deployed on Heroku!',
+         description: 'Application to share and view goals with peers using Chart.js to be able to vizualize the data. Live deployed on Heroku.',
          repoLink: 'https://github.com/vlad-kronk/your-goals-tracker',
          deployedLink: 'https://goalie.herokuapp.com/',
          cardImg: '/images/goalie.png'

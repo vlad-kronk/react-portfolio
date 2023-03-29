@@ -7,10 +7,11 @@
 }
 
 .footer-link {
-  display: block;
+  display: flex;
   width: 50px;
   align-self: center;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   color: black;
   transition: 0.4s cubic-bezier(.14, .64, .16, 1);
