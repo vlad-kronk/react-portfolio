@@ -7,7 +7,7 @@ import Resume from './pages/Resume';
 
 
 export default function PageContainer() {
-   const [currentPage, setCurrentPage] = useState('about')
+   const [currentPage, setCurrentPage] = useState(window.location.hash.substring(1))
 
    // render components based on the current page saved in state
    const renderPage = () => {
