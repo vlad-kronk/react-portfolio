@@ -33,7 +33,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Deployed App
 
-https://js-text-editor-pwa.herokuapp.com/
+https://vlad-kronk.github.io/react-portfolio/
 
 ## Credits
 
