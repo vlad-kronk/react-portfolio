@@ -1,0 +1,10 @@
+.resume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 200px;
+  margin-top: 50px;
+}

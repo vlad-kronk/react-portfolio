@@ -7,15 +7,26 @@
 
 .bio {
    font-family: 'Indie Flower';
+   height: 100%;
+   width: 50%;
+   border: 20px solid white;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
 }
 
 .about-me-container {
    display: flex;
    flex-direction: row;
+   padding: 50px;
+   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
    .about-me-container {
       flex-direction: column;
    }
+   .bio {
+      width: 300px;
+   }
 }
+
